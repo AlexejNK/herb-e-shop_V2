@@ -1,0 +1,59 @@
+.headerAll {
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    align-items: center;
+    background: #1056e3;
+    height: 80px;
+    color: #e1e1e1;
+    margin: 0 auto 20px;
+    font-size: 24px;
+    z-index: 2;
+}
+.headerLeft {
+
+}
+.btnReplacement {
+    border: none;
+    background: inherit;
+    color: inherit;
+}
+.headerIconGlass {
+    width: 2rem;
+}
+.headerIconCart {
+    display: inline-block;
+    position: relative;
+    width: 2rem;
+    margin: 0 15px;
+    /*cursor: pointer;*/
+}
+.headerAmount {
+    display: inline-block;
+    position: absolute;
+    font-size: 14px;
+    width: 18px;
+    height: 18px;
+    padding: 1px;
+    line-height: 15px;
+    border-radius: 50%;
+    background: #d4ad44;
+    top: -5px;
+    left: 30px;
+    color: black;
+}
+.headerCenter {
+    border: gray 1px solid;
+    height: 38px;
+}
+.headerCenter input {
+    border: none;
+}
+.headerRight {
+    height: 32px;
+}
+.headerCart {
+    margin: 0 15px;
+    cursor: pointer;
+}

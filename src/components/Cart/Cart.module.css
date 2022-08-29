@@ -1,0 +1,125 @@
+
+.containerCart {
+    /*background: rgba(0, 0, 0, 0.5);*/
+    width: 100%;
+    height: 510%;
+    position: sticky;
+    left: 0;
+    top: 0;
+    z-index: 2;
+}
+.wrapperCart {
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 610px;
+    left: 0;
+    top: 80px;
+    z-index: 2;
+    position: absolute;
+}
+h1 {
+    margin-top: 60px;
+}
+.cartRight {
+    background: #fff;
+    width: 680px;
+    height: 90vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 3;
+    overflow: scroll;
+}
+.cartClose {
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 24px;
+    color: blueviolet;
+    cursor: pointer;
+}
+.cartEmpty {
+    margin: 100px auto;
+    /*display: flex;*/
+    flex-direction: column;
+    display: none;
+}
+.openBox {
+    width: 256px;
+    height: 256px;
+    margin: 0 auto;
+}
+.cartText {
+    font-size: 32px;
+    font-weight: bold;
+}
+.cartSmile {
+    width: 128px;
+    height: 128px;
+    margin: 0 auto;
+}
+
+.cartFull {
+    display: block;
+}
+.cardTitle {
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+.cartTitleText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+    line-height: 14px;
+}
+.cartCard {
+    margin-top: 80px;
+}
+.cardInCart {
+    margin: 10px;
+    display: flex;
+    background: #fcf764;
+}
+.cartImg {
+    width: 85px;
+    height: 85px;
+}
+.buttonAdded {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    width: 20%;
+    font-size: 24px;
+}
+.btnPlus {
+    padding: 0 5px;
+    color: #ADFF2F;
+    cursor: pointer;
+    font-size: 21px
+}
+.btnNumber {
+    padding: 0 10px;
+}
+.btnMinus {
+    padding: 0 5px;
+    color: #F08080;
+    cursor: pointer;
+    font-size: 21px
+}
+.btnDelete{
+    position: relative;
+    top: -30px;
+    right: 5px;
+    color: red;
+    cursor: pointer;
+}
+.cartAmount {
+    margin: 25px auto;
+}
+.cartAmount span {
+    padding: 0 90px;
+    font-size: 24px;
+}

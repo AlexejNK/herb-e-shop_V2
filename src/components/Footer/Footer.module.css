@@ -1,0 +1,41 @@
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background: #1056e3;
+    color: #e1e1e1;
+    margin: 20px;
+    height: 80px;
+}
+.footerLeft {
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+}
+.cardHeart {
+    width: 26px;
+    height: 26px;
+    position: relative;
+    top: 32px;
+    left: 10px;
+    cursor: pointer;
+}
+.cardOffHeart {
+    width: 26px;
+    height: 26px;
+    display: inline-block;
+    z-index: 2;
+}
+.cardOnHeart {
+    width: 26px;
+    height: 26px;
+    position: relative;
+    top: -27px;
+    /*display: none;*/
+    display: inline-block;
+    z-index: 1;
+}
+.footerRight {
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+}
